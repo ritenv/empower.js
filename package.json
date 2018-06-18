@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ritenv/empower.js.git"
+    "url": "git+https://github.com/ritenv/empowerjs"
   },
   "keywords": [
     "empower",

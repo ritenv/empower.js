@@ -6,6 +6,10 @@ Empower regular JavaScript objects with shorthand routines
 
 empower.js works in Node and browsers, and supports amd loaders.
 
+Install it via Yarn:
+
+	yarn add empowerjs
+
 Install it via NPM:
 
 	npm install empowerjs
