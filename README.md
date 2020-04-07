@@ -44,12 +44,12 @@ var man = {
 $man = Empower(man);
 $man.value(); //return original man object
 $man.name; //superman
-$man.clean(); //man = {name: 'superman'}; (undefined and null values removed)
+$man.clean(); //undefined and null values will be removed (e.g. spouse, faceMask)
 $man.$name.spaceOut(); // man.name = s u p e r m a n
 $man.$name.reverse();  // man.name = n a m r e p u s
 $man.$father.$name.reverse();  // man.father.name = 'lE-roZ'
 $man.$species.singularize();  // man.species = 'kryptonian'
-$man.$category.pluralize();  // man.category = 'heroes'
+$man.$category.pluralize();  // man.category = 'superheroes'
 $man.$grow.run();  // man.age = 30
 $man.$grow.runEvery(2000);  // will run man.grow() every 2 seconds
 $man.$grow.cancelRuns();  // will cancel previous periodic run
